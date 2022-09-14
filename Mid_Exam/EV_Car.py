@@ -5,7 +5,7 @@ Group: {MIT221}
 """
 
 class EV_Car:
-    EV_Car = []
+    my_evcar = []
     def __init__(self,brand,model,motor,horsepower,batterysize,range,price):
         self.brand = brand
         self.model = model
@@ -14,7 +14,7 @@ class EV_Car:
         self.batterysize = batterysize
         self.range = range
         self.price = price
-        self.EV_Car.append(self)
+        self.my_evcar.append(self)
 
     def EV_Car_detail(self):
             print(f'Brand:{self.brand} '
@@ -24,4 +24,5 @@ class EV_Car:
                   f'Batterysize:{self.batterysize} '
                   f'Range:{self.range} '
                   f'Price:{self.price} ')
+
 
