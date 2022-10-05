@@ -3,7 +3,6 @@ Name: {นางสาวสุธาทิพย์ ทองใบใหญ่
 SID: {364211760027}
 Group: {MIT221}
 """
-
 class Dog:
     def __init__(self,name,age):
         self.name = name
